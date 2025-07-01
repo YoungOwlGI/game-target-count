@@ -1,4 +1,4 @@
-from object_set.game_target_count.calculate_draws import calculate_draws
+from calculate_draws import calculate_draws
 
 def main():
     print("可选选项：\n")
