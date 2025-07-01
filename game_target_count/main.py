@@ -1,7 +1,7 @@
-from object_set.game_target_count.genshin_import import main as genshin_import
-from object_set.game_target_count.honkai_import_3 import main as honkai_import_3
-from object_set.game_target_count.zenless_zone_zero import main as zenless_zone_zero
-from object_set.game_target_count.star_rail import main as star_rail
+from genshin_import import main as genshin_import
+from honkai_import_3 import main as honkai_import_3
+from zenless_zone_zero import main as zenless_zone_zero
+from star_rail import main as star_rail
 
 # 译为 游戏目标计算
 
