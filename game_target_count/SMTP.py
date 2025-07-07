@@ -7,8 +7,8 @@ from email.utils import formataddr
 def send_email():
     # 发件人和收件人信息
     print("开始发送报错邮件")
-    sender_email = 'young_owl@qq.com'  # 你的QQ邮箱
-    receivers = ['youngowlgi@outlook.com']  # 接收邮件的邮箱
+    sender_email = 'young_owl@qq.com'  # 我的QQ邮箱
+    receivers = ['youngowlgi@outlook.com']  # 接收邮件的邮箱（还是我的QQ邮箱）
 
     # 邮件内容
     message = MIMEText('Python 邮件发送测试...', 'plain', 'utf-8')
