@@ -57,7 +57,7 @@ def l():
 try:
     main()
 except Exception as e:
-    print(f"程序出现错误：{e}，你可从头开始运行程序。")
+    print(f"！程序出现错误：{e}，你可从头开始运行程序。")
     send_email()
     main()
 
